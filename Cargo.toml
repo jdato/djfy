@@ -1,0 +1,15 @@
+[package]
+name = "djfy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.21.1", features = ["rt-multi-thread"] }
+librespot-audio = "0.4.2"
+librespot-core = "0.4.2"
+librespot-metadata = "0.4.2"
+regex = "1.1.0"
+log = "0.4.6"
+simplelog= "0.12.0"
